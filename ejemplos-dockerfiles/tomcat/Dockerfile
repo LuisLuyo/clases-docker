@@ -1,5 +1,5 @@
 FROM 		tomcat:8.0
-MAINTAINER 	Richard Quinto (richardqa@gmail.com)
+MAINTAINER 	Richard Quinto (richardqa@gmail.com) - luis.luyohernandez@gmail.com
 COPY 		./shared/sample.war /usr/local/tomcat/webapps/
 RUN             mkdir /opt/shared
 COPY            ./shared/Context.xml /opt/shared/
